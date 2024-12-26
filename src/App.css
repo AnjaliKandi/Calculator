@@ -1,0 +1,32 @@
+.container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  flex-direction:column;
+}
+.output{
+  background-color:black;
+  color:white;
+  padding:10px 10px;
+  outline:none;
+  width:300px;
+  font-size:32px;
+  height:30px;
+  border:none;
+  border-top-right-radius:6px; /* to get the edge as curve*/
+  border-top-left-radius:6px;
+}
+button{
+  width:80px;
+  height:80px;
+  border-color: whitesmoke;
+  font-size:20px;
+  cursor:pointer;
+}
+.digit{
+  background-color:burlywood;
+}
+.operator{
+  background-color: chocolate;
+}
